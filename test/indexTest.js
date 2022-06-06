@@ -10,10 +10,10 @@ describe('index.js', function () {
       cats.length = 0;
 
       cats.push('Milo', 'Otis', 'Garfield');
-      const cats = ["Milo", "Otis", "Garfield"];
+     
     });
 
-    describe('destructivelyAppendCat(name)', function () {
+  describe('destructivelyAppendCat(name)', function () {
       it('appends a cat to the end of the cats array', function () {
         destructivelyAppendCat('Ralph');
 

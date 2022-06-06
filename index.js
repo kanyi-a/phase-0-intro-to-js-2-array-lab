@@ -13,7 +13,7 @@ function destructivelyRemoveLastCat(name){
 function destructivelyRemoveFirstCat(name){
     cats.shift(name);
 }
-function appendCat(name){g
+function appendCat(name){
     let newArray=[...cats,name]
     return newArray;
 }
